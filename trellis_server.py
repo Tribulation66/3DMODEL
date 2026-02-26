@@ -9,6 +9,9 @@ Presets:
   - lowpoly: Optimized for game-ready low-poly characters (5k faces, 1024 texture)
 """
 
+import sys
+sys.path.insert(0, "/content/TRELLIS.2")
+
 import os
 os.environ["OPENCV_IO_ENABLE_OPENEXR"] = "1"
 os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
